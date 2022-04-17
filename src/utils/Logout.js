@@ -11,7 +11,7 @@ const Logout = () => {
     signOut(auth).then(() => {
       localStorage.removeItem("isAuth");
       setIsAuth(false);
-      window.location.pathname = "/ecoshower";
+      window.location.pathname = "/";
     })
   }
   
