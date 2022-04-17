@@ -9,14 +9,14 @@ import Login from "./pages/Login";
 function App() {
 
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/ecoshower/stopwatch" element={<Main />} />
         <Route path="/ecoshower/profile" element={<Profile />} />
         <Route path="/ecoshower/settings" element={<Settings />} />
         <Route path="/ecoshower/" element={<Login />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
