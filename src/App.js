@@ -9,14 +9,14 @@ import Login from "./pages/Login";
 function App() {
 
   return (
-    <HashRouter basename={"/ecoshower"}>
+    <BrowserRouter>
       <Routes>
-        <Route path="/stopwatch" element={<Main />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/settings" element={<Settings />} />
-        <Route path="/" element={<Login />} />
+        <Route path="/ecoshower/stopwatch" element={<Main />} />
+        <Route path="/ecoshower/profile" element={<Profile />} />
+        <Route path="/ecoshower/settings" element={<Settings />} />
+        <Route path="/ecoshower/" element={<Login />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

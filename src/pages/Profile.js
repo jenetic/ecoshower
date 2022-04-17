@@ -52,7 +52,7 @@ const Profile = () => {
   return (
     <div>
       <Logout></Logout>
-      <Link to="/stopwatch" className="linkButton" id="stopwatchButton" style={{ textDecoration: 'none' }}>Shower Tracker</Link>
+      <Link to="ecoshower/stopwatch" className="linkButton" id="stopwatchButton" style={{ textDecoration: 'none' }}>Shower Tracker</Link>
       <p className="tableMsg">Try to get under your previous time!</p>
       <table>
         <tr>

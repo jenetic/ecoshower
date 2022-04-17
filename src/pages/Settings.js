@@ -46,7 +46,7 @@ const Settings = () => {
       reminder2: document.getElementById("reminder2").value,
       reminder2Time: document.getElementById("reminder2Time").value,
     });
-    navigate("/stopwatch");
+    navigate("ecoshower/stopwatch");
   }
 
   return (
