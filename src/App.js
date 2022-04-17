@@ -11,7 +11,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/ecoshower" element={<Login />} />
         <Route path="/stopwatch" element={<Main />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/settings" element={<Settings />} />
