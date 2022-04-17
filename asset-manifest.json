@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ecoshower/static/css/main.7dd5e5e5.css",
-    "main.js": "/ecoshower/static/js/main.a49c8537.js",
+    "main.js": "/ecoshower/static/js/main.e6103ffb.js",
     "index.html": "/ecoshower/index.html",
     "main.7dd5e5e5.css.map": "/ecoshower/static/css/main.7dd5e5e5.css.map",
-    "main.a49c8537.js.map": "/ecoshower/static/js/main.a49c8537.js.map"
+    "main.e6103ffb.js.map": "/ecoshower/static/js/main.e6103ffb.js.map"
   },
   "entrypoints": [
     "static/css/main.7dd5e5e5.css",
-    "static/js/main.a49c8537.js"
+    "static/js/main.e6103ffb.js"
   ]
 }
