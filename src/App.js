@@ -9,9 +9,9 @@ import Login from "./pages/Login";
 function App() {
 
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-      <Route path="/ecoshower" element={<Login />} />
+      <Route path="/" element={<Login />} />
         <Route path="/stopwatch" element={<Main />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/settings" element={<Settings />} />
