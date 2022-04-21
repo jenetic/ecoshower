@@ -1,4 +1,4 @@
-# Ecoshower 🚿🌱
+# EcoShower 🚿🌱
 
 EcoShower is a shower tracking web app aimed at anyone who showers and wants to track the environmental impact of their showers. One of the simplest ways to live more sustainably is to take shorter showers, as long showers are harmful to the environment due to wasting water, consuming lots of energy, and worsening climate change by increasing greenhouse gas emissions (through heating the water), so Ecoshower is meant to encourage shorter showers for more sustainable living. 
 
