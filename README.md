@@ -8,13 +8,22 @@ I made Ecoshower in a day to practice using React.js and Firebase. That's why it
 
 ## Site
 ### Landing Page
-![Landing page](screenshots/landing-page.png)
+<img src="screenshots/landing-page.png" width="70%">
 
 ### Stopwatch
-![Stopwatch](screenshots/stopwatch.png)
+<img src="screenshots/stopwatch.png" width="70%">
+
+This page has a start and stop button for when the user starts and finishes their shower. After you finish your shower, your will get environmental statistics about the shower based on how long it took.
+
+For the calculations of gallons of water, CO2 emissions, and cost, I used the fact that average shower uses [2.1 gallons of water each minute](https://www.aquatell.ca/pages/how-household-water-usage-contributes-to-co2-emissions#:%7E:text=Showers%20and%20Baths,15%20minutes%20x%200.18%20lbs), a gallon of heated water uses [0.18 lbs of CO2](https://www.aquatell.ca/pages/how-household-water-usage-contributes-to-co2-emissions#:%7E:text=Showers%20and%20Baths,15%20minutes%20x%200.18%20lbs), and "[the average water bill in the United States is $72.93 a month for a family of four using 100 gallons of water per day per person](https://www.moving.com/tips/how-much-does-the-average-water-bill-cost/)". In the future, there would preferably be settings to adjust the water cost and more customization options.
 
 ### Settings
-![Settings page](screenshots/settings.png)
+<img src="screenshots/settings.png" width="70%">
+Here, you can set your water goal and a robot voice would remind you when the stopwatch reaches that time. You can set other reminders at custom times and a robot voice would read out your custom message during that time. However, right now, there's a bug where stopping the stopwatch before the reminder times would not stop the reminders from being read anyway.
 
 ### Previous Showers
-![Previous showers page](screenshots/previous-showers.png)
+<img src="screenshots/previous-showers.png" width="70%">
+You can view previous showers here and delete them. There is not much here yet, but it would be nice to have a summary/totals section and graphs of the data, as well as manually add showers. 
+
+## Built With
+This was built with React.js and Firebase.
