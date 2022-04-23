@@ -25,5 +25,8 @@ Here, you can set your water goal and a robot voice would remind you when the st
 <img src="screenshots/previous-showers.png" width="50%">
 You can view previous showers here and delete them. There is not much here yet, but it would be nice to have a summary/totals section and graphs of the data, as well as manually add showers. 
 
+## Demo
+You can try it out when I actually get the routes to work 😅
+
 ## Built With
 This was built with React.js and Firebase.
