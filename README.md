@@ -8,9 +8,13 @@ I made Ecoshower in a day to practice using React.js and Firebase. That's why it
 
 ## Site
 ### Landing Page
+![Landing page](screenshots/landing-page.png)
 
 ### Stopwatch
+![Stopwatch](screenshots/stopwatch.png)
 
 ### Settings
+![Settings page](screenshots/settings.png)
 
 ### Previous Showers
+![Previous showers page](screenshots/previous-showers.png)
