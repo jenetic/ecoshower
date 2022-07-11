@@ -6,7 +6,7 @@ The app includes a stopwatch that you start when you take a shower and stop when
 
 ## Why is this a web app
 
-I made Ecoshower in a day to practice using React.js and Firebase. That's why it's a web app instead of a mobile app (because I don't have experience making mobile apps) despite it being better suited as a mobile app since people are slightly more likely to bring their phones to the bathroom than a computer. Maybe one day I'll turn it into a mobile app.
+I don't know how to make mobile apps lol (and my goal was to make this in a day). This works better as a mobile app so maybe one day I'll turn it into one
 
 ## Site
 ### Landing Page
