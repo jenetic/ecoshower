@@ -1,5 +1,5 @@
 import { setDoc, getDoc, doc } from 'firebase/firestore';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { db } from "../firebase-config";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import "../App.css"
@@ -46,7 +46,7 @@ const Settings = () => {
       reminder2: document.getElementById("reminder2").value,
       reminder2Time: document.getElementById("reminder2Time").value,
     });
-    navigate("ecoshower/stopwatch");
+    navigate("/stopwatch");
   }
 
   return (
@@ -55,7 +55,7 @@ const Settings = () => {
       <div className="settings">
         <h1>Settings</h1>
         <h2>Shower Goal</h2>
-        <p>A text-to-speech bot will remind you when the stopwatch hits the specified time.</p>
+        <p>A robot voice will remind you when the stopwatch hits the specified time.</p>
         <p>Under <span><input className="numInput" id="goalTime"></input></span> Minutes</p>
         
         <h2>Reminders</h2>

@@ -1,4 +1,3 @@
-// https://medium.com/codex/react-stopwatch-10bf9813d0ec
 import "../App.css"
 import React, { useState, useEffect } from 'react';
 import { db, auth } from "../firebase-config";
@@ -43,14 +42,11 @@ const Stopwatch = () => {
       }
     });
   }, [])
-  
 
   let timestamps = [];
-
   let timeoutGoal = null;
   let timeoutReminder1 = null;
   let timeoutReminder2 = null;
-
   let timeoutIds = [timeoutGoal, timeoutReminder1, timeoutReminder2];
 
   // Check if the stuff in settings are numbers, if so, add to timestamps for it to read out loud
@@ -116,7 +112,6 @@ const Stopwatch = () => {
 
     // Display stats
     setFinishedTime(time);
-    //
     document.getElementById("stats").style.display = "flex";
 
     // Reset stopwatch
@@ -140,7 +135,7 @@ const Stopwatch = () => {
       </div>
       <br/>
       <div id="stats">
-          <p className="statsContents">
+          <div className="statsContents">
             <b>Shower Duration:</b> {getMins(finishedTime)}:{getSecs(finishedTime)}
             <br/>
             <b>Water:</b> {getGallons(finishedTime)} gallons
@@ -149,47 +144,14 @@ const Stopwatch = () => {
             <br/>
             <b>Water bill cost:</b> ${getWaterBill(finishedTime)}
             <p>
-            *for hot water
-            <br/>
-            Note: Values are based on averages and estimates. 
-          </p>
-          </p>
+              *for hot water
+              <br/>
+              Note: Values are based on averages and estimates. 
+            </p>
+          </div>
       </div>
     </div>
   )
 }
 
 export default Stopwatch;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,5 @@
 {
-  "homepage": "http://srnq.github.io/ecoshower",
-  "name": "shower-timer",
+  "name": "ecoshower",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

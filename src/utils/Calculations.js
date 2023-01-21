@@ -26,8 +26,3 @@ export const getCo2Emissions = (milli) => {
 export const getWaterBill = (milli) => {
   return (getGallons(milli) * 0.0060775).toFixed(4);
 }
-
-// module.exports = {
-//   getMins: getMins,
-//   getSecs: getSecs;
-// }

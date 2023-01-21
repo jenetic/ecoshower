@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Stopwatch from "../utils/Stopwatch";
 import Logout from "../utils/Logout";
 import { Link } from "react-router-dom";

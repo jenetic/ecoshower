@@ -52,28 +52,31 @@ const Profile = () => {
   return (
     <div>
       <Logout></Logout>
-      <Link to="ecoshower/stopwatch" className="linkButton" id="stopwatchButton" style={{ textDecoration: 'none' }}>Shower Tracker</Link>
+      <Link to="/stopwatch" className="linkButton" id="stopwatchButton" style={{ textDecoration: 'none' }}>Shower Tracker</Link>
       <p className="tableMsg">Try to get under your previous time!</p>
       <table>
-        <tr>
-          <td className="header">Date</td>
-          <td className="header">Duration</td>
-          <td className="header">Water (Gallons)</td>
-          <td className="header">CO2 Emissions (lbs)</td>
-          <td className="header">Average Water Bill Cost</td>
-          
-        </tr>
-        {showersList.map((shower) => {
-          return (
-            <tr key={shower.id} id={shower.id}>
-              <td>{new Date(parseInt(shower.created)).toLocaleDateString()}</td>
-              <td>{getMins(shower.time)}:{getSecs(shower.time)} </td>
-              <td>{getGallons(shower.time)}</td>
-              <td>{getCo2Emissions(shower.time)}</td>
-              <td>${getWaterBill(shower.time)}</td>
-              <td><button className="deleteButton" onClick={() => handleDelete(shower.id)}> X </button></td>
-            </tr>)
-        })}
+        <thead>
+          <tr>
+            <td className="header">Date</td>
+            <td className="header">Duration</td>
+            <td className="header">Water (Gallons)</td>
+            <td className="header">CO2 Emissions (lbs)</td>
+            <td className="header">Average Water Bill Cost</td>
+          </tr>
+        </thead>
+        <tbody>
+          {showersList.map((shower) => {
+            return (
+              <tr key={shower.id} id={shower.id}>
+                <td>{new Date(parseInt(shower.created)).toLocaleDateString()}</td>
+                <td>{getMins(shower.time)}:{getSecs(shower.time)} </td>
+                <td>{getGallons(shower.time)}</td>
+                <td>{getCo2Emissions(shower.time)}</td>
+                <td>${getWaterBill(shower.time)}</td>
+                <td><button className="deleteButton" onClick={() => handleDelete(shower.id)}> X </button></td>
+              </tr>)
+          })}
+        </tbody>
       </table>
       
   
