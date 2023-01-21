@@ -6,7 +6,7 @@ The app includes a stopwatch that you start when you take a shower and stop when
 
 ## Why is this a web app
 
-I don't know how to make mobile apps lol (and my goal was to make this in a day). This works better as a mobile app so maybe one day I'll turn it into one
+Yes this works better as a mobile app so maybe one day I'll turn it into one, but this was just made for fun in a short period of time with the intention of learning React.js and Firebase.
 
 ## Site
 ### Landing Page
@@ -28,7 +28,7 @@ Here, you can set your water goal and a robot voice would remind you when the st
 You can view previous showers here and delete them. There is not much here yet, but it would be nice to have a summary/totals section and graphs of the data, as well as manually add showers. 
 
 ## Demo
-You can try it out when I actually get the routes to work 😅
+Try it out [here](https://ecoshower.vercel.app/)!
 
 ## Built With
 This was built with React.js and Firebase.
