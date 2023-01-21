@@ -28,7 +28,7 @@ Here, you can set your water goal and a robot voice would remind you when the st
 You can view previous showers here and delete them. There is not much here yet, but it would be nice to have a summary/totals section and graphs of the data, as well as manually add showers. 
 
 ## Demo
-Try it out [here](https://ecoshower.vercel.app/)!
+Try it out <a href="https://ecoshower.vercel.app/" target="_blank">here</a>!
 
 ## Built With
 This was built with React.js and Firebase.
